@@ -138,7 +138,7 @@
     <None Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\..\ogg\win32\VS2010\libogg_static.vcxproj">
+    <ProjectReference Include="..\..\..\..\ogg\win32\VS2019\libogg.vcxproj">
       <Project>{15cbfeff-7965-41f5-b4e2-21e8795c9159}</Project>
       <Private>true</Private>
       <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
