@@ -8,8 +8,8 @@ cd daala
 ./configure --host=x86_64-w64-mingw32
 make
 make tools # optional
-cp examples/encoder_example.exe /bin/daalaenc.exe
-cp examples/player_example.exe /bin/daaladec.exe
+cp examples/encoder_example.exe /c/Windows/daalaenc.exe
+cp examples/player_example.exe /c/Windows/daaladec.exe
 ```
 
 
