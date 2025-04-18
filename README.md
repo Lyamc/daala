@@ -1,3 +1,19 @@
+# Build instructions on MingW64 (MSYS2)
+
+```
+pacman -S automake autoconf git mingw-w64-x86_64-gcc libtool mingw-w64-x86_64-SDL2_gfx mingw-w64-x86_64-libogg mingw-w64-x86_64-libjpeg-turbo mingw-w64-x86_64-libpng mingw-w64-x86_64-check
+git clone https://github.com/xiph/daala
+cd daala
+./autogen.sh
+./configure --host=x86_64-w64-mingw32
+make
+make tools # optional
+cp examples/encoder_example.exe /bin/daalaenc.exe
+cp examples/player_example.exe /bin/daaladec.exe
+```
+
+
+
 # Daala next-generation video codec
 
 Daala is the codename for a new video compression technology. The effort is a
